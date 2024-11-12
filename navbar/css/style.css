@@ -1,0 +1,23 @@
+ul{
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    overflow: hidden;
+}
+li{
+    display: inline;
+    float: left;
+}
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    display: block;
+    padding: 15px;
+}
+.active{
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+}
