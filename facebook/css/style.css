@@ -23,10 +23,9 @@ body {
     margin-left: 80px;
     text-align: center;
     box-shadow: 4px 4px 10px rgba(155, 154, 154, 0.2), -4px -4px 10px rgba(175, 175, 175, 0.2);
-
     border-radius: 5px;
 }
-.custom-heading {
+.heading {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 26px;
     font-weight: 100;  
@@ -46,7 +45,7 @@ body {
     padding: 20px;
     font-style:Sans-serif;
     font-weight: 300;
-    font-size: large;
+    font-size:16px;
     
 }
 .btn {
@@ -64,6 +63,9 @@ body {
     padding: 0; 
     box-sizing: border-box; 
     margin-left: 20px;
+}
+.btn:hover{
+    background-color: #307de0;
 }
 .forgot-password {
     color: #2882f8; 
@@ -96,6 +98,10 @@ body {
     border-radius: 5px;
 
 }
+.new:hover{
+    background-color: #1d6916;
+    
+}  
 .small-container {
     /* background-color: rgb(212, 209, 212);  */
     width: 100%; 
@@ -129,4 +135,8 @@ p {
     display: inline; 
     margin: 0;
     padding: 0;
+    margin-right: 5px;
+}
+.a:hover{
+    text-decoration: none;
 }
