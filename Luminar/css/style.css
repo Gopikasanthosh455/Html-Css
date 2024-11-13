@@ -1,0 +1,27 @@
+nav{
+    background-color: white;
+    list-style-type: none;
+    overflow: hidden;
+    padding-left: 350px;
+    padding-right: 400px;
+    /* display: flex; */
+    gap: 20px;
+    font-family: Arial, sans-serif;
+}
+li{
+    display: inline;
+    float: right;
+}
+li a{
+    text-decoration: none;
+    padding: 13px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(78, 78, 78);
+}
+.active{
+    font-weight: 700;
+    color: rgb(187, 46, 168);
+    text-decoration: underline;
+}
+
